@@ -1,0 +1,552 @@
+.header{
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 1px;
+
+position: absolute;
+width: 1440px;
+height: 38px;
+left: 0px;
+top: 0px;
+
+/* UI shell/Gray 100 */
+background: #161616;
+
+}
+.line1{
+position: absolute;
+width: 1440px;
+height: 0px;
+left: 0px;
+top: 40px;
+
+border: 2px solid #303030;
+}
+.logo{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 1440px;
+height: 77px;
+left: 0px;
+top: 40px;
+
+/* UI shell/Gray 100 */
+
+background: #161616;
+}
+.personal{
+position: absolute;
+width: 58px;
+height: 22px;
+left: 64px;
+top: 8px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #FBFFFF;
+
+}
+.business{
+    /* Business */
+position: absolute;
+width: 57px;
+height: 22px;
+left: 142px;
+top: 8px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #FBFFFF;
+}
+.store{
+    /* Stores */
+position: absolute;
+width: 41px;
+height: 22px;
+left: 1241px;
+top: 8px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #FBFFFF;
+}
+.espanol{
+    /* Español */
+position: absolute;
+width: 51px;
+height: 22px;
+left: 1319px;
+top: 8px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+/* identical to box height, or 157% */
+color: #FBFFFF;
+}
+.vector{
+    /* Vector */
+position: absolute;
+width: 38.15px;
+height: 45px;
+left: 64px;
+top: 56px;
+
+background: #161616;
+}
+h1{
+position: absolute;
+width: 393px;
+height: 22px;
+left: 96px;
+top: 181px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 22px;
+/* identical to box height, or 69% */
+color: #000000;
+}
+hr{
+position: absolute;
+width: 849px;
+height: 0px;
+left: 96px;
+top: 227px;
+
+border: 4px solid #000000;
+}
+.iphone{
+    /* Apple iPhone 13 */
+position: absolute;
+width: 185px;
+height: 22px;
+left: 298px;
+top: 254px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 22px;
+/* identical to box height, or 92% */
+
+}
+
+.edit{
+    /* Edit */
+position: absolute;
+width: 29px;
+height: 24px;
+left: 531px;
+top: 254px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-decoration-line: underline;
+
+color: #000000;
+}
+.price{
+    /* $799.00 */
+position: absolute;
+width: 62px;
+height: 24px;
+left: 298px;
+top: 300px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+color: #000000;
+}
+.remove{
+    /* Remove */
+position: absolute;
+width: 59px;
+height: 24px;
+left: 109px;
+top: 389px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-decoration-line: underline;
+
+color: #000000;
+}
+button{
+    /* Button */
+box-sizing: border-box;
+
+position: absolute;
+width: 67px;
+height: 33px;
+left: 293px;
+top: 336px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 35px;
+}
+img{
+/* apple-iphone-13-green-2022 1 */
+position: absolute;
+width: 94px;
+height: 127px;
+left: 109px;
+top: 254px;
+
+background: url(apple-iphone-13-green-2022.jpg);
+}
+.footer-image{
+    /* vz-2_rgb_r 1 */
+position: absolute;
+width: 128px;
+height: 48px;
+left: 91px;
+top: 968px;
+
+background: url(vz-2_rgb_r.png);
+background: #161616;
+}
+.footer-link{
+    /* Site Maps Privacy Policy Accessibility Open Interest Terms & Conditions */
+position: absolute;
+width: 458px;
+height: 16px;
+left: 491px;
+top: 984px;
+
+/* helper-text-01 */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.32px;
+
+color: #FAFAFA;
+}
+.copyright{
+    /* © 2022 Verizon */
+position: absolute;
+width: 88px;
+height: 16px;
+left: 1233px;
+top: 984px;
+
+/* helper-text-01 */
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+text-align: center;
+letter-spacing: 0.32px;
+
+color: #FAFAFA;
+
+}
+footer{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+/* position: absolute;
+width: 1440px;
+height: 48px;
+left: 1px;
+top: 968px; */
+
+/* UI shell/Gray 100 */
+
+background: #161616;
+}
+.line4{
+position: absolute;
+width: 367px;
+height: 0px;
+left: 977px;
+top: 227px;
+
+border: 4px solid #000000;
+}
+.order{
+    /* Order summary */
+position: absolute;
+width: 176px;
+height: 22px;
+left: 977px;
+top: 243px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 22px;
+/* identical to box height, or 92% */
+color: #000000;
+}
+.title-iphone{
+    /* Apple iPhone 13 */
+position: absolute;
+width: 119px;
+height: 22px;
+left: 977px;
+top: 297px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+color: #000000;
+}
+
+.price-iphone{
+    /* $799.00 */
+position: absolute;
+width: 67px;
+height: 22px;
+left: 1277px;
+top: 297px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+color: #000000;
+
+}
+.taxes{
+    /* Estimated taxes */
+position: absolute;
+width: 116px;
+height: 22px;
+left: 977px;
+top: 327px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+color: #000000;
+}
+
+.price-tax{
+position: absolute;
+width: 67px;
+height: 22px;
+left: 1277px;
+top: 327px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+color: #000000;
+}
+.total{
+    /* Total */
+position: absolute;
+width: 47px;
+height: 22px;
+left: 977px;
+top: 397px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 22px;
+/* identical to box height, or 110% */
+color: #000000;
+}
+.price-total{
+    position: absolute;
+width: 81px;
+height: 22px;
+left: 1263px;
+top: 397px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+/* or 120% */
+
+
+color: #000000;
+}
+
+.button-order{
+    /* Button */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 2px;
+
+position: absolute;
+width: 350px;
+height: 48px;
+left: 986px;
+top: 480px;
+
+background: #000000;
+border-radius: 25px;
+}
+
+.place-order{
+    /* Button */
+
+
+position: absolute;
+width: 79px;
+height: 18px;
+left: 135px;
+top: 13px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+letter-spacing: 0.16px;
+
+/* Text/$text-04 */
+
+color: #FFFFFF;
+}
+
+.line5{
+position: absolute;
+width: 367px;
+height: 0px;
+left: 977px;
+top: 443px;
+
+border: 4px solid #000000;
+}
+
+.line6{
+position: absolute;
+width: 647px;
+height: 0px;
+left: 298px;
+top: 539px;
+
+border: 2px solid #E6E8E8;
+}
+.line7{
+position: absolute;
+width: 51px;
+height: 0px;
+left: 388px;
+top: 540px;
+
+border: 5px solid #C43C2C;
+}
+
+.shipping{
+    /* Shipping */
+position: absolute;
+width: 66px;
+height: 22px;
+left: 298px;
+top: 505px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+color: #757777;
+}
+
+.pickup{
+    /* Pickup */
+position: absolute;
+width: 51px;
+height: 22px;
+left: 388px;
+top: 505px;
+
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height, or 138% */
+color: #000000;
+
+}
+.line8{
+position: absolute;
+width: 849px;
+height: 0px;
+left: 96px;
+top: 840px;
+
+border: 4px solid #000000;
+}
